@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Todo app JS</title>
+
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+</head>
+
+<body>
+  <img class="background-image"" src="./images/bg-desktop-dark.jpg">
+  <main>
+    <header>
+      <h1>
+        TODO
+      </h1>
+      <button id="theme-btn">
+        <img class="theme-icon" src="./images/icon-sun.svg">
+      </button>
+    </header>
+    <section>
+      
+      <input id="input-todo" onsubmit="return false" type="text" placeholder="Create a new todo...">
+
+      <section class="section-todo">
+
+        <div class="todo-card">
+          <button id="clear-btn">Clear</button>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script src="./js/theme.js"></script>
+</body>
+</html>

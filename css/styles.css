@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #181824;
+}
+body > img {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+}
+body main header {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  margin: 5rem 0;
+}
+body main header h1 {
+  color: #fff;
+  letter-spacing: 1rem;
+  font-size: 3rem;
+}
+body main header button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+body main section {
+  width: 35%;
+}
+body main section input {
+  width: 100%;
+  height: 5rem;
+  border: none;
+  padding: 1rem;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #25273C;
+}
+body main section input::placeholder {
+  font-size: 1.5rem;
+}
+body main section section {
+  width: 100%;
+  margin-top: 2rem;
+}
+body main section .todo-card {
+  background-color: #25273C;
+  height: 5rem;
+  color: rgb(182, 182, 182);
+  border-radius: 5px;
+  padding: 1.8rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
